@@ -27,7 +27,7 @@ const AboutUs = () => {
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
         <div className='flex bg-white'>
           <img src="award" alt="" />
-          <p>We're No.1 Oil & Gas Company</p>
+          <p>We&apos;re No.1 Oil & Gas Company</p>
         </div>
         <div>
           <div><p>Clean energy for a bright future</p></div>
