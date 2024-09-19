@@ -57,8 +57,8 @@ const Solution = () => {
                     </div>
                     <div className='flex flex-col border'>
                         <div className='flex flex-row justify-between'>
-                            <p>Cleaner</p>
-                            <p>90%</p>
+                            <p>Stronger</p>
+                            <p>80%</p>
                         </div>
                         <div className='bg-yellow-600 p-[2px]'>
 
@@ -66,8 +66,8 @@ const Solution = () => {
                     </div>
                     <div className='flex flex-col border'>
                         <div className='flex flex-row justify-between'>
-                            <p>Cleaner</p>
-                            <p>90%</p>
+                            <p>Better</p>
+                            <p>75%</p>
                         </div>
                         <div className='bg-yellow-600 p-[2px]'>
 
@@ -77,7 +77,7 @@ const Solution = () => {
                 {/* image with overlap */}
                 <div>
                     <img src="" alt="" className='relative' />
-                    <img src="" alt=""  className='absolute bottom-[-30px] right-[-30px]'/>
+                    <img src="" alt="" className='absolute bottom-[-30px] right-[-30px]' />
                 </div>
             </div>
         </section>

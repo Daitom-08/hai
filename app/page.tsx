@@ -10,14 +10,14 @@ import Footer from "./sections/Footer";
 export default function Home() {
   return (
     <section className="borde  relative flex flex-col  border-green-500">
-      <Nav/>
+      <Nav />
       <Hero />
       <WhoWeAre />
       <Parallax />
       <Solution />
       <GetTogether />
       <Projects />
-      <Footer/>
+      <Footer />
     </section>
   );
 }

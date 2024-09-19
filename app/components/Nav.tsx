@@ -15,18 +15,12 @@ const Nav = () => {
                     <a href='/' className='  border-green-500  items-center cursor-pointer flex flex-col'>
                         <Image
                             className=' border-green-500 w-[57.33px] h-[53.9px]'
-                            src={'assets/icons/1296859.svg'}
+                            src={'assets/icons/logo.svg'}
                             alt='Company Logo'
                             width={57.33}
                             height={53.9}
                         />
-                        <Image
-                            className=' border-green-500 w-[39px] h-[17px]'
-                            src={'assets/icons/itdt.svg'}
-                            alt='Company Logo'
-                            width={39}
-                            height={17}
-                        />
+                        <p className='text-white text-[8px] lg:text-[14px]'>Hen and Associate</p>
                     </a>
                     {/* Mobile Hamburger */}
                     {
@@ -47,8 +41,13 @@ const Nav = () => {
 
                     {/* large screen menu */}
                     <div className=' items-center  hidden md:flex gap-[16px]'>
-                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer  hover:underline font-unbounded ' href='/about' >About Us</a>
-                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer hover:underline font-unbounded' href='/contact'>Contact Us</a>
+                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer hover:underline font-unbounded' href='/contact'>Home</a>
+                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer hover:underline font-unbounded' href='/contact'>About Us</a>
+                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer hover:underline font-unbounded' href='/contact'>Our Values</a>
+                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer hover:underline font-unbounded' href='/contact'>Vision</a>
+                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer  hover:underline font-unbounded ' href='/about' >Mission</a>
+                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer  hover:underline font-unbounded ' href='/about' >Our Growing Client</a>
+                        <a className='p-[8px] text-white text-[16px] leading-[19.8px] cursor-pointer  hover:underline font-unbounded ' href='/about' >Contact Us</a>
                         <ButtonDark text={'Get Involved'} hidden='hidden' fontType={'font-unbounded'} link='/involved' />
                     </div>
                 </div>

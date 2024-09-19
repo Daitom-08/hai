@@ -22,13 +22,33 @@ const AboutUs = () => {
       </div>
 
       <div className='bg-yellow-500'>
-        <p>Who We Are</p>
-        <p>Providing affordable and reliable energy</p>
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut elit tellus, luctus nec ullamcorper mattis, pulvinar dapibus leo.</p>
-        <div className='flex bg-white'>
+        <p>About Us</p>
+        {/* <p>Providing affordable and reliable energy</p> */}
+        <p>Our company showcases
+          the comprehensive
+          services we offer in the
+          realm of strategic oil and
+          gas procurements,
+          drilling, and well
+          intervention services.
+          Hen and Associates, our commitment to delivering innovative products and solutions is
+          matched only by our dedication to providing cost-effective and reliable services. We pride
+          ourselves on the simplicity and efficiency of our designs, tailored to meet the unique needs
+          of our customers.
+          Scope of Our Services:
+          Oil & Gas Procurements: As a vendor, we have successfully supplied upstream and
+          downstream parts, equipment, and accessories to both international and indigenous oil
+          and gas companies in Nigeria. With direct access to OEM distributors in the UK, Europe,
+          North America, and Asia, we ensure the timely delivery of high-quality products. We have
+          a proven track record with clients including Future oilfield, Total Energies Upstream,
+          RusselSmith Group, Chevron, Navante Oil & Gas Company Ltd and many more.
+          Well Intervention Services: Our expertise includes Gyroscopic surveying and a range of
+          well intervention activities such as Slickline, Coil Tubing, Re-Perforation, Sand Cleanout,
+          RST, Well Head Maintenance, and GLVCO.</p>
+        {/* <div className='flex bg-white'>
           <img src="award" alt="" />
           <p>We&apos;re No.1 Oil & Gas Company</p>
-        </div>
+        </div> */}
         <div>
           <div><p>Clean energy for a bright future</p></div>
           <div><p>Sustainable development</p></div>
@@ -36,9 +56,29 @@ const AboutUs = () => {
         </div>
         <Button text='READ MORE' />
         <img src="/assets/images/Hero2.jpg" alt="" />
-        <div>
+        {/* <div>
           <p className='text-[24px]'>We Spread Around The World</p>
-          <p className='text-[12px]'>Laoreet lorem consectetuer hendrerit dictumst curae volutpat cubilia elit velit natoque. Eleifend diam volutpat lectus aliquam aenean. Dolor sed orci scelerisque taciti sodales tortor.</p>
+          <p className='text-[12px]'>Our company showcases
+            the comprehensive
+            services we offer in the
+            realm of strategic oil and
+            gas procurements,
+            drilling, and well
+            intervention services.
+            Hen and Associates, our commitment to delivering innovative products and solutions is
+            matched only by our dedication to providing cost-effective and reliable services. We pride
+            ourselves on the simplicity and efficiency of our designs, tailored to meet the unique needs
+            of our customers.
+            Scope of Our Services:
+            Oil & Gas Procurements: As a vendor, we have successfully supplied upstream and
+            downstream parts, equipment, and accessories to both international and indigenous oil
+            and gas companies in Nigeria. With direct access to OEM distributors in the UK, Europe,
+            North America, and Asia, we ensure the timely delivery of high-quality products. We have
+            a proven track record with clients including Future oilfield, Total Energies Upstream,
+            RusselSmith Group, Chevron, Navante Oil & Gas Company Ltd and many more.
+            Well Intervention Services: Our expertise includes Gyroscopic surveying and a range of
+            well intervention activities such as Slickline, Coil Tubing, Re-Perforation, Sand Cleanout,
+            RST, Well Head Maintenance, and GLVCO.</p>
           <div className='flex flex-row'>
             <div className='flex flex-col'>
               <p>25+</p>
@@ -54,7 +94,7 @@ const AboutUs = () => {
             </div>
           </div>
           <img src="world" alt="" />
-        </div>
+        </div> */}
       </div>
     </section>
   )
