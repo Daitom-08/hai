@@ -2,9 +2,9 @@ import React from 'react'
 
 const Footer = () => {
     return (
-        <section className='flex flex-col bg-black text-white'>
+        <section className='flex flex-col lg:flex-row p-[24px] bg-black text-white'>
             <div className='flex flex-col'>
-                <p>Home</p>
+                <p className='text-[20px]'>Home</p>
                 <p>About Us</p>
                 <p>Our Values</p>
                 <p>Vision</p>
@@ -13,7 +13,7 @@ const Footer = () => {
                 <p>Our Growing Clients</p>
             </div>
             <div className='flex flex-col'>
-                <p>Service</p>
+                <p className='text-[20px]'>Service</p>
                 <p>about</p>
                 <p>investors</p>
                 <p>career</p>
@@ -21,7 +21,7 @@ const Footer = () => {
                 <p>Business</p>
             </div>
             <div className='flex flex-col'>
-                <p>Support</p>
+                <p className='text-[20px]'>Support</p>
                 <p>about</p>
                 <p>investors</p>
                 <p>career</p>
@@ -30,7 +30,7 @@ const Footer = () => {
             </div>
             {/* company logo ish  */}
             <div className='flex flex-col p-[20px]'>
-                <p>Sem et quisque dis fermentum vitae mauris sit orci ante. Porttitor facilisis lorem venenatis sollicitudin cursus sapien ultricies pretium.</p>
+                {/* <p>Sem et quisque dis fermentum vitae mauris sit orci ante. Porttitor facilisis lorem venenatis sollicitudin cursus sapien ultricies pretium.</p> */}
                 <div className=''>
                     <img src="/asset/icons/logo.svg" alt="" />
                     <p>UK: 5, Price of Wales Terrace,London W8 5PG.</p>
@@ -45,7 +45,7 @@ const Footer = () => {
 
 
             </div>
-            <div className='flex flex-col lg:flex-row '>
+            <div className='flex flex-col lg:flex-row  lg:items-center'>
                 <div className='flex flex-row justify-between text-[12px] '>
                     <p>Term of Use</p>
                     <p>Cookies</p>

@@ -3,14 +3,14 @@ import Button from '../components/Button'
 
 const AboutUs = () => {
   return (
-    <section className='border p-[40px] flex items-center flex-col border-green-500'>
+    <section className='borde p-[40px] flex items-center flex-col border-green-500'>
       <div className='font-bold'>Trusted by 30,000 world-class brands and organizations of all sizes
       </div>
       <div className='flex'>
         <div>
           Testimonials
         </div>
-        <div>
+        {/* <div>
           Testimonials
         </div>
         <div>
@@ -18,10 +18,10 @@ const AboutUs = () => {
         </div>
         <div>
           Testimonials
-        </div>
+        </div> */}
       </div>
 
-      <div className='bg-yellow-500'>
+      <div className='bg-yellow-500 p-[20px] rounded'>
         <p>About Us</p>
         {/* <p>Providing affordable and reliable energy</p> */}
         <p>Our company showcases
@@ -49,13 +49,13 @@ const AboutUs = () => {
           <img src="award" alt="" />
           <p>We&apos;re No.1 Oil & Gas Company</p>
         </div> */}
-        <div>
+        <div className='pb-[20px]'>
           <div><p>Clean energy for a bright future</p></div>
           <div><p>Sustainable development</p></div>
           <div><p>Improving access to energy</p></div>
         </div>
         <Button text='READ MORE' />
-        <img src="/assets/images/Hero2.jpg" alt="" />
+        <img src="/assets/images/Hero2.jpg" className='pt-[20px]' alt="" />
         {/* <div>
           <p className='text-[24px]'>We Spread Around The World</p>
           <p className='text-[12px]'>Our company showcases

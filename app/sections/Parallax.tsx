@@ -3,13 +3,13 @@ import Button from '../components/Button'
 
 const Parallax = () => {
     return (
-        <section>
+        <section className='p-[20px]'>
             <p>Preserve and conserve</p>
-            <p className='text-[24px]'>A Vital Energy Resource For A Better Tomorrow</p>
+            {/* <p className='text-[24px]'>A Vital Energy Resource For A Better Tomorrow</p> */}
             <p className='text-[12px]'>Cubilia scelerisque ultricies at cras tempus phasellus primis habitant. Penatibus pulvinar at vel cursus dignissim sem condimentum molestie. Lobortis hac aenean posuere justo letius laoreet augue.</p>
             <Button text='DISCOVER MORE' />
             <div className='flex'>
-                <img src="arrow" alt="" />
+                {/* <img src="arrow" alt="" /> */}
                 <div className='flex flex-col'>
                     <p>Our Value</p>
                     <p className='text-[12px]'>In performing our functions as a group, we will:
@@ -31,7 +31,7 @@ const Parallax = () => {
                 </div>
             </div>
             <div className='flex'>
-                <img src="arrow" alt="" />
+                {/* <img src="arrow" alt="" /> */}
                 <div className='flex flex-col'>
                     <p>Vision</p>
                     <p className='text-[12px]'>To be recognized globally as a leader in Oil and Gas infrastructure development,
@@ -39,7 +39,7 @@ const Parallax = () => {
                 </div>
             </div>
             <div className='flex'>
-                <img src="arrow" alt="" />
+                {/* <img src="arrow" alt="" /> */}
                 <div className='flex flex-col'>
                     <p>Mission</p>
                     <p className='text-[12px]'>To deploy our innovative products and services in the most environmentally friendly way,
