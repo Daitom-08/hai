@@ -13,9 +13,9 @@ export default function Home() {
       <Nav />
       <Hero />
       <WhoWeAre />
-      <Parallax />
       <Solution />
-      <GetTogether />
+      <Parallax />
+      {/* <GetTogether /> */}
       <Projects />
       <Footer />
     </section>

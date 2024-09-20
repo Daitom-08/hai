@@ -68,13 +68,13 @@ const Nav = () => {
                                         width={57.33}
                                         height={53.9}
                                     />
-                                    <Image
+                                    {/* <Image
                                         className=' border-green-500 w-[39px] h-[17px]'
                                         src={'assets/icons/itdt.svg'}
                                         alt='Company Logo'
                                         width={39}
                                         height={17}
-                                    />
+                                    /> */}
                                 </a>
                                 {/* Mobile X icon */}
 
@@ -94,11 +94,15 @@ const Nav = () => {
                                 <div className=' items-start flex flex-col   h-fit mt-[40px] gap-[24px]'>
                                     <a className='p-[8px] text-primary text-[16px]  leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/#Hero'>Home</a>
                                     <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer  font-unbounded' onClick={() => setNavBarOpen(false)} href='/about'>About Us</a>
-                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/contact'>Contact Us</a>
-                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/involved'>Get Involved</a>
+                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer  font-unbounded' onClick={() => setNavBarOpen(false)} href='/about'>Scope of Services</a>
+                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/contact'>Our Values</a>
+                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/involved'>Vision</a>
+                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/involved'>Mission</a>
+                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/involved'>Our Growing Client</a>
+                                    <a className='p-[8px] text-primary text-[16px] leading-[19.8px] cursor-pointer font-unbounded' onClick={() => setNavBarOpen(false)} href='/involved'>Contact Us</a>
                                 </div>
                                 <div className='border-[#0B1F20] border my-[40px] w-full'></div>
-                                <h2 className='text-primary font-unbounded font-normal text-[24px] text-center leading-[29.7px]'>Rooted To Impact</h2>
+                                {/* <h2 className='text-primary font-unbounded font-normal text-[24px] text-center leading-[29.7px]'>Rooted To Impact</h2> */}
                                 <div className=' flex gap-[16px] cursor-pointer'>
                                     <Image
                                         src={'/assets/icons/facebook.svg'}

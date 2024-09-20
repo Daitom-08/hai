@@ -3,16 +3,16 @@ import Button from '../components/Button'
 
 const Parallax = () => {
     return (
-        <section className='p-[20px]'>
-            <p>Preserve and conserve</p>
+        <section className='px-[20px]'>
+            {/* <p>Preserve and conserve</p> */}
             {/* <p className='text-[24px]'>A Vital Energy Resource For A Better Tomorrow</p> */}
-            <p className='text-[12px]'>Cubilia scelerisque ultricies at cras tempus phasellus primis habitant. Penatibus pulvinar at vel cursus dignissim sem condimentum molestie. Lobortis hac aenean posuere justo letius laoreet augue.</p>
-            <Button text='DISCOVER MORE' />
+            {/* <p className='text-[12px]'>Cubilia scelerisque ultricies at cras tempus phasellus primis habitant. Penatibus pulvinar at vel cursus dignissim sem condimentum molestie. Lobortis hac aenean posuere justo letius laoreet augue.</p> */}
+            {/* <Button text='DISCOVER MORE' /> */}
             <div className='flex'>
                 {/* <img src="arrow" alt="" /> */}
                 <div className='flex flex-col'>
-                    <p>Our Value</p>
-                    <p className='text-[12px]'>In performing our functions as a group, we will:
+                    <p className='font-bold text-[24px]'>Our Value</p>
+                    <p className='text-[12px] text-justify'>In performing our functions as a group, we will:
                         • Comply with applicable laws and regulations of any country where we maintain
                         business operations.
                         • Operate with the high integrity and ethics expected of our industry.
@@ -33,16 +33,16 @@ const Parallax = () => {
             <div className='flex'>
                 {/* <img src="arrow" alt="" /> */}
                 <div className='flex flex-col'>
-                    <p>Vision</p>
-                    <p className='text-[12px]'>To be recognized globally as a leader in Oil and Gas infrastructure development,
+                    <p className='font-bold text-[24px]'>Vision</p>
+                    <p className='text-[12px] text-justify' >To be recognized globally as a leader in Oil and Gas infrastructure development,
                         improving quality of life and sustaining economic growth</p>
                 </div>
             </div>
             <div className='flex'>
                 {/* <img src="arrow" alt="" /> */}
                 <div className='flex flex-col'>
-                    <p>Mission</p>
-                    <p className='text-[12px]'>To deploy our innovative products and services in the most environmentally friendly way,
+                    <p className='font-bold text-[24px]'>Mission</p>
+                    <p className='text-[12px] text-justify'>To deploy our innovative products and services in the most environmentally friendly way,
                         fulfilling our role in the international effort to reduce wastage and increase savings.
                         By developing our opportunities wisely, we seek to grow within the challenging Oil and Gas
                         market by offering added value to our clients and unshakable confidence to our stakeholders.</p>

@@ -12,22 +12,7 @@ const Footer = () => {
                 <p>Contact Us</p>
                 <p>Our Growing Clients</p>
             </div>
-            <div className='flex flex-col'>
-                <p className='text-[20px]'>Service</p>
-                <p>about</p>
-                <p>investors</p>
-                <p>career</p>
-                <p>news and update</p>
-                <p>Business</p>
-            </div>
-            <div className='flex flex-col'>
-                <p className='text-[20px]'>Support</p>
-                <p>about</p>
-                <p>investors</p>
-                <p>career</p>
-                <p>news and update</p>
-                <p>Business</p>
-            </div>
+           
             {/* company logo ish  */}
             <div className='flex flex-col p-[20px]'>
                 {/* <p>Sem et quisque dis fermentum vitae mauris sit orci ante. Porttitor facilisis lorem venenatis sollicitudin cursus sapien ultricies pretium.</p> */}
@@ -46,12 +31,12 @@ const Footer = () => {
 
             </div>
             <div className='flex flex-col lg:flex-row  lg:items-center'>
-                <div className='flex flex-row justify-between text-[12px] '>
+                <div className='p-[2px] flex flex-row justify-between text-[12px] '>
                     <p>Term of Use</p>
                     <p>Cookies</p>
                     <p>privacy Policy</p>
                 </div>
-                <p className='text-[12px]'>Copyright © 2024 Oeelco, All rights reserved. Powered by MoxCreative</p>
+                <p className='text-[12px]'>Copyright © 2024 Hen&Associate, All rights reserved. Powered by MoxCreative</p>
             </div>
         </section>
     )
