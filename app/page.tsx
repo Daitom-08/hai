@@ -3,7 +3,6 @@ import Hero from "./sections/Hero";
 import WhoWeAre from "./sections/AboutUs";
 import Parallax from "./sections/Parallax";
 import Solution from "./sections/Solution";
-import GetTogether from "./sections/GetTogether";
 import Projects from "./sections/Projects";
 import Footer from "./sections/Footer";
 
