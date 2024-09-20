@@ -48,7 +48,7 @@ const AboutUs = () => {
           <div><p>Sustainable development</p></div>
           <div><p>Improving access to energy</p></div>
         </div> */}
-        <div className='mt-[20px]'>
+        <div className='mt-[20px] border w-fit'>
 
         <Button text='READ MORE' />
         </div>

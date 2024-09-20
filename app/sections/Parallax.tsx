@@ -2,14 +2,14 @@ import React from 'react'
 
 const Parallax = () => {
     return (
-        <section className='px-[20px]'>
+        <section className=' p-[20px]'>
             {/* <p>Preserve and conserve</p> */}
             {/* <p className='text-[24px]'>A Vital Energy Resource For A Better Tomorrow</p> */}
             {/* <p className='text-[12px]'>Cubilia scelerisque ultricies at cras tempus phasellus primis habitant. Penatibus pulvinar at vel cursus dignissim sem condimentum molestie. Lobortis hac aenean posuere justo letius laoreet augue.</p> */}
             {/* <Button text='DISCOVER MORE' /> */}
-            <div className='flex'>
+            <div className='flex bg-yellow-500 px-[40px] py-[10px] rounded-[100px] overflow-hidden'>
                 {/* <img src="arrow" alt="" /> */}
-                <div className='flex flex-col'>
+                <div className='flex flex-col px-[24px]'>
                     <p className='font-bold text-[24px]'>Our Value</p>
                     <p className='text-[12px] text-justify'>In performing our functions as a group, we will:
                         • Comply with applicable laws and regulations of any country where we maintain
